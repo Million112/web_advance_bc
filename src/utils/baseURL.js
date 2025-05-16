@@ -1,5 +1,7 @@
 const getBaseUrl = () => {
-    return "http://localhost:5000"
+    return "https://wen-advance-bc2.vercel.app"
 }
 
 export default getBaseUrl;
+
+//http://localhost:5000
