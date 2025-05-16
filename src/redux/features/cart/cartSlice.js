@@ -16,16 +16,16 @@ const cartSlice = createSlice({
                 Swal.fire({
                     position: "top-end",
                     icon: "success",
-                    title: "Product Added to the Cart",
+                    title: "Đơn hàng đã được thêm vào giỏ hàng",
                     showConfirmButton: false,
                     timer: 1500
                   });
             } else(
                 Swal.fire({
-                    title: "Already Added to the Cart",
-                    text: "You won't be able to revert this!",
+                    title: "Đơn hàng đã tồn tại trong giỏ hàng",
+                    text: "Bạn sẽ không thể hoàn nguyên điều này!",
                     icon: "warning",
-                    showCancelButton: true,
+                    //showCancelButton: true,
                     confirmButtonColor: "#3085d6",
                     cancelButtonColor: "#d33",
                     confirmButtonText: "OK!"

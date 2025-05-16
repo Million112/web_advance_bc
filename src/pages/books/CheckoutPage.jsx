@@ -45,7 +45,7 @@ const CheckoutPage = () => {
                 title: "Đơn hàng đã xác nhận",
                 text: "Đơn hàng của bạn đã được đặt thành công!",
                 icon: "warning",
-                showCancelButton: true,
+                //showCancelButton: true,
                 confirmButtonColor: "#3085d6",
                 cancelButtonColor: "#d33",
                 confirmButtonText: "Xác nhận!"
